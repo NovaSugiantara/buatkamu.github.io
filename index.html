@@ -119,8 +119,8 @@ TikTok: @rayyarr_
           confirmButtonText: "Lanjut",
           showCancelButton: false,
         });
+        play();
         if (nama && nama.length < 11) {
-          play();
           window.nama = nama;
           await swals.fire("Hai, " + nama + " manis ツ");
           await swals.fire("Cie yang hari ini ultah &#128514;");
